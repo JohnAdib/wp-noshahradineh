@@ -1,0 +1,105 @@
+img.alignright {float:right; margin:0 0 1em 1em} img.alignleft {float:left; margin:0 1em 1em 0} img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em} a img.alignleft {float:left; margin:0 1em 1em 0} a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.clearfix {display: block;}
+/* Hide from IE-mac \*/* html .clearfix { float: left; height: 1%; }/* End hide from IE-mac */
+body {
+	direction:rtl;
+	float:right;
+	border: 1px; 
+	font-family: Tahoma, monospace, Arial;
+	font-size:12px;
+	line-height:24px;
+	color:#555;
+	width: 640px;
+}
+.left{ float:left;}
+a {
+	text-decoration:none;
+	color: #000;
+	outline:none;
+}
+a:hover {color: #555;}
+article{
+	background-color: #F8FCFF;
+	margin-top: 2px;
+	padding: 0px 10px;
+	overflow:hidden;
+}
+footer{text-align: center;}
+h3{font-size:14px;}
+/* =Caption, Images and Alignments
+-------------------------------------------------------------- */
+.alignright {
+	display: inline;
+	float: right;
+	-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+.alignleft {
+	display: inline;
+	float: left;
+	-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+.aligncenter,
+div.post .new-post .aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+.wp-caption {
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	padding: 5px;
+	margin-bottom: 10px;
+	max-width: 630px;
+}
+.wp-caption.alignleft {
+	margin: 0px 10px 10px 0px;
+}
+.wp-caption.alignright {
+	margin: 0px 0px 10px 10px;
+}
+#main #content .wp-caption img {
+	margin: 0;
+	border: 0 none;
+	-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+#content .wp-caption  p {text-align : center;}
+.wp-caption .wp-caption-text  p{
+	color: #666;
+	padding: 10px 10px;
+}
+img.alignleft {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+img.alignright {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+img.aligncenter{
+-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+
+img.size-auto, 
+img.size-full, 
+img.size-large, 
+img.size-medium, 
+.attachment img {
+	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+	-webkit-border-radius:7px; -moz-border-radius:7px;border-radius:7px;
+}
+.wp-smiley {
+	margin: 0;
+}
+img {
+	max-width:630px;
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	padding: 5px;
+	max-width:640;
+}

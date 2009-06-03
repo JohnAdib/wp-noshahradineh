@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+
+Sitemap: http://www.noshahradineh.ir/sitemap.xml.gz
+Sitemap: http://www.noshahradineh.ir/sitemap.xml
+Sitemap: http://www.noshahradineh.ir/sitemap_index.xml

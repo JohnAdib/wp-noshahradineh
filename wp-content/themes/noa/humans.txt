@@ -1,0 +1,13 @@
+Mixa Team
+
+/* MAIN */
+Develop & Main Design: Javad Evazzadeh
+Site: http://evazzadeh.com
+
+/* SITE */
+Last update: 05/11/2013
+Doctype: HTML5
+IDE: Notepad++!
+
+/* SPECIAL THANKS */
+Usability: Mixa Team Members
